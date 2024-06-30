@@ -1,0 +1,55 @@
+#nav{
+   background-color:white;
+   height: 100px
+}
+img{
+   display: inline;
+   height:100%;
+}
+body,html{
+   background-color: rgb(163,187,219); 
+   margin: 0px;
+   padding: 0px;
+}
+.tck{
+   width:20%;
+   height: 20%;
+}
+li{
+   float: left;
+   padding: left ;
+   margin-left: 25px;
+   list-style-type: none;
+}
+ul{
+   float: right;
+   margin-top:35px;
+   margin-right:20px ;
+}
+a{
+   color: black;
+   text-decoration: none;
+   padding: 10px;
+   transition: all 0.3s;
+}
+a:hover{
+   border-radius: 50px;
+   background-color: rgb(163,187,219);
+   color: white;
+}
+#tck{
+   background-color: black;
+   /* display: none;这里最好不要这样。但是你这样我不知道改好还是不改好 */
+   opacity: 0;
+   width: 100px;
+   height: 100px;
+   transition: all 1s ease;
+}
+
+.nav #about:hover ~ #tck {
+   opacity: 1;
+   transition: all 1s ease;
+}
+#about{
+   width: max-content;
+}

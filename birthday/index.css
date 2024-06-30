@@ -1,0 +1,12 @@
+#bri{
+    margin-left: 10%;
+    width: 80%;
+    background-color:rgb(46,89,167); 
+}
+.t{
+    transform: rotate(30deg);
+    display: inline;
+}
+p{
+    color:rgb(236,216,82);
+}

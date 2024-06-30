@@ -1,0 +1,59 @@
+*{
+    font-family: microsoft yahei;  
+}
+.mail{
+    display:none;
+}
+body{
+    font-family: Arial, sans-serif;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(163,187,219);
+}
+#main{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    gap: 20px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(163,187,219);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(163,187,255);
+    width: 94%;
+    margin-left: 3%;
+}
+textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.1s;
+    height:400px;
+    font-size:30px ;
+}
+textarea:hover{
+    background-color: rgba(208, 228, 255, 0.63);
+} 
+#logo:hover{
+
+}
