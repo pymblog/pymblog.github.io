@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="zh">
+<html lang="en">
 <head>
     <link rel="icon" href="../style3.webp">
     <link rel="stylesheet" href="index.css">
@@ -11,22 +11,21 @@
     <title>注册和登录界面</title>
 
 </head>
-<body>
-    <div id="nav">
-        <a href="../"><img src="styleb.webp" title="pymblog"></a>
-        <ul>
-        <li><a class="nav" href="../birthday/">html的生日</a></li>
+<div id="nav">
+    <a href="../"><img src="styleb.webp" title="pymblog"></a>
+    <ul>
+    <li><a class="nav" href="../birthday/">html的生日</a></li>
 
-        <li><a class="nav" href="../email/">发送邮件</a></li>
-        <li><a href="../login/">登录</a></li>
-        
-        </ul>
-        
-    </div>
+    <li><a class="nav" href="../email/">发送邮件</a></li>
+    <li><a href="../login/">登录</a></li>
+    
+    </ul>
+    
+</div>
     <div class="container" >
         <div class="form-container" id="zc" hidden="true">
             
-            <h2>注册</h2>
+            <h2 id="t">注册</h2>
             <button onclick="dl()">登录</button>
             <form id="registerForm">
                 <input type="text" id="regUsername" placeholder="用户名" required>
@@ -39,7 +38,7 @@
         </div>
         <div class="form-container" id="dl" >
             
-            <h2>登录</h2>
+            <h2 id="t">登录</h2>
             <button onclick="zc()" >注册</button>
             <form id="loginForm">
                 <input type="text" id="loginUsername" placeholder="用户名" required>

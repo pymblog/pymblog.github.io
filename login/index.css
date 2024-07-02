@@ -7,7 +7,15 @@ body {
     margin: 0;
     background-color: rgb(163,187,219);
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
     border-radius: 5px;
@@ -49,5 +57,9 @@ button:hover {
     transition: transfrom 3s ease-in-out;
 }
 #nav{
-    display: table-cell;
+    /* display: table-cell; */
+    height: 100dvw;
+}
+#t{
+    margin-left: 40% !important;
 }
