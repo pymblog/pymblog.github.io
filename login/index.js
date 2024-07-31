@@ -1,7 +1,4 @@
-
-        
-        
-        function zc(){
+function zc(){
             let zc=document.getElementById('zc')
             let dl=document.getElementById('dl')
             zc.hidden=false
