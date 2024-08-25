@@ -1,13 +1,12 @@
 #nav{
    background-color:white;
-   height: 100px;
-   
+   height: 50px;
    width: 100%;
    top: 0 !important;
 }
 img{
    display: inline;
-   height:100%;
+   height: 30px;
 }
 body,html{
    background-color: rgb(163,187,219);
@@ -26,14 +25,17 @@ li{
 }
 ul{
    float: right;
-   margin-top:35px;
-   margin-right:20px ;
+   margin-top: 0px;
+   /* margin-right:20px; */
+   padding-left: 0;
 }
+
+
 a{
    color: black;
    text-decoration: none;
-   padding: 10px;
    transition: all 0.5s;
+   /* margin-top: 50%; */
 }
 .nav:hover{
    border-radius: 10px;
@@ -55,20 +57,57 @@ a{
    width: max-content;
 }
 .nav{
-   height: 2em;
-   width: auto;
+   height: 30px;
+   width: 30px;
    display: block;
+   margin: 5px;
+   padding: 5px;
 }
-.list{
+
+#list {
+   /* display: flex; */ /* 使用Flexbox */
+   width: 100%; /* 如果需要，允许换行 */
+   /* height: 100%; */
+   margin-top: 20px;
+   /* float: right; */
+   /* margin-left: 23%; */
+   /* margin-left: 10%; */
+   right: 0;
+   margin-left: 3%;
+}
+ 
+.list {
+   max-width: 50%;
    background-color: white;
-   width: 42.5%;
-   margin-left: 5%;
-   margin-right: 2.5%;
+   width: 300px; /* 您可以根据需要调整这个值 */
    padding: 20px;
-   height: 100px;
-   margin-top: 50px;
+   height: 200px;
+   margin-top: 0;
+   flex-shrink: 0; /* 防止元素在必要时缩小 */
    display: inline-block;
 }
+
+
 h2{
    margin: 0;
+}
+#user{
+   display: block;
+   width: 20%;
+   background-color: white;
+   font-size: 30px;
+   float: left;
+   margin-top: 20px;
+   /* margin-left: 5%; */
+   top: 0;
+}
+.user{
+   
+}
+.userimg{
+   width: 1em;
+   height: 1em;
+}
+#logo{
+   height: 50px;
 }
