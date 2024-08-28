@@ -1,0 +1,18 @@
+#inputdiv{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+#input{
+    width: 80%;
+    height: 80%;
+    margin: 0% 10% 10% ;
+    bottom:0;
+    
+    font-size: 20px;
+}
+body,html{
+    height: 100%;
+}

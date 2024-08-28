@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>数字炸弹游戏</title>  
+<style>  
+  #guess {  
+    margin-top: 20px;  
+  }  
+  .game-over {  
+    color: red;  
+  }  
+</style>  
+</head>  
+<body>  
+<h1>数字炸弹游戏</h1>  
+<p>猜一个1到100之间的数字，不要点到炸弹哦！</p>  
+<input type="number" id="guessInput" placeholder="输入你的猜测" min="1" max="100" disabled>  
+<button onclick="checkGuess()">猜测</button>  
+<button onclick="randomGuess()">随机猜测</button>  
+<p id="result"></p>  
+  
+<script src="index.js"></script>  
+</body>  
+</html>
