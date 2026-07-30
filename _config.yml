@@ -26,15 +26,15 @@ baseurl: ""
 url: ""
 
 # 社交链接（替换为你的链接/用户名）
-social_youtube: "https://youtube.com/@your-channel"
-social_twitter: "https://x.com/your-handle"
-social_facebook: "https://facebook.com/your-page"
-social_instagram: "https://instagram.com/your-handle"
-social_discord: "https://discord.gg/your-invite"
-social_whatsapp: "https://wa.me/your-number"
+social_youtube: "www.youtube.com/@VictorPym"
+social_twitter: "https://x.com/VictorPymovo"
+social_facebook: "https://www.facebook.com/profile.php?id=61585557447296"
+social_instagram: "https://www.instagram.com/pymstu"
+social_discord: "https://discord.gg/HYQx2gPwY"
+social_whatsapp: "https://wa.me/8615671101775"
 social_qq: "https://qm.qq.com/q/FeQLp7N9S2"
-social_wechat: "your-wechat-id"
-social_bilibili: "https://space.bilibili.com/your-uid"
+social_wechat: "PYMSTU"
+social_bilibili: "https://space.bilibili.com/TST6SOU"
 
 # Build settings
 theme: minima
