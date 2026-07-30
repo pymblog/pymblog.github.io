@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TeleWatch 开发记录：小米手表 Vela 通过 Cloudflare Worker 接入 Telegram Bot"
-date: 2026-07-30 23:00:00 +0800
+date: 2026-07-30 22:30:00 +0800
 categories: 教程 Vela 小米手表 Cloudflare Telegram
 ---
 
